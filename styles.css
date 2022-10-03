@@ -7,4 +7,24 @@
 section{
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #042104;
+}
+
+.loader{
+  position: relative;
+
+}
+
+.loader span{
+  position: absolute;
+  top: 0;
+  width: 200px;
+
+}
+
+.loader span::before{
+  content: '';
+  position: absolute;
 }
