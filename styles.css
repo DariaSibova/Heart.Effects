@@ -20,9 +20,11 @@ section{
 .loader span{
   position: absolute;
   top: 0;
+  left: -200px;
   width: 200px;
 height: 2px;
 background: #fff;
+transform-origin: right;
 }
 
 .loader span::before{
