@@ -21,7 +21,7 @@ section{
   position: absolute;
   top: 0;
   width: 200px;
-
+height: 2px;
 }
 
 .loader span::before{
@@ -31,4 +31,7 @@ section{
   width: 15px;
   height: 15px;
   background: #00ff0a;
+  border-radius: 50%;
+  animation: animate 2s linear infinite;
 }
+
