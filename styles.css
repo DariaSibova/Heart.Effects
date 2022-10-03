@@ -25,6 +25,7 @@ section{
 height: 2px;
 background: #fff;
 transform-origin: right;
+transform: rotate(calc(18deg * var(--i)));
 }
 
 .loader span::before{
