@@ -40,7 +40,15 @@ background: #fff;
   0 0 60px #00ff0a,
   0 0 80px #00ff0a,
   0 0 100px #00ff0a;
+}
 
+@keyframes animate{
+  0%{
+    transform: translateX(0) scale(0.5);
+  }
+  50%{
+    transform: translateX(200px) scale(1);
+  }
 
 }
 
