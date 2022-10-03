@@ -37,6 +37,7 @@ transform: rotate(calc(18deg * var(--i)));
   background: #00ff0a;
   border-radius: 50%;
   animation: animate 2s linear infinite;
+  animation-delay: calc(-0.1s * var(--i));
   box-shadow: 0 0 10px #00ff0a,
   0 0 20px #00ff0a,
   0 0 40px #00ff0a,
